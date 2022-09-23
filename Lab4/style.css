@@ -1,4 +1,25 @@
 
+h1{
+    margin-bottom: 30px;
+}
+header{
+    background-color: aliceblue;
+}
+
+#searchbar{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+}
+
 
   
   
