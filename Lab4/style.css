@@ -1,24 +1,176 @@
 
-h1{
-    margin-bottom: 30px;
+body{
+    background-color: #FFFFFF;
 }
+
+h1{
+    margin-left: 40px;
+    color: #006A02;
+    font-size: 62px;
+    float: left;
+}
+
 header{
-    background-color: aliceblue;
+    background-color: #333;
+}
+
+.nav_one{
+    float: right;
 }
 
 #searchbar{
-    float: right;
-    padding: 6px;
+    padding: 14px 600px;
+    padding-left: 20px;
     border: none;
-    margin-top: 8px;
-    margin-right: 16px;
+    margin-top: 50px;
     font-size: 17px;
+    border-color: #333;
 }
+
+.search-button{
+    padding: 14px;
+    margin-top: 8px;
+    margin-right: 100px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.language-button{
+    padding: 14px;
+    margin-top: 8px;
+    margin-right: 40px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-button{
+    padding: 14px;
+    margin-top: 8px;
+    margin-right: 40px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.shopping-cart-button{
+    padding: 14px;
+    margin-top: 8px;
+    margin-right: 40px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_bar{
+    list-style-type: none;
+    margin: 0;
+    margin-top: 140px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-bottom: 20px;
+}
+
+.nav_bar li{
+    float: left;
+}
+
+.nav_bar li a{
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav_bar li a:hover{
+    background-color: #006A02;
+}
+
 
 img{
     width: 250px;
     height: 200px;
 }
+
+footer{
+
+}
+
+.section_ayuda{
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.footer_bar1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.footer_bar1 li a{
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section_acerca{
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.footer_bar2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.footer_bar2 li a{
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section_siguenos{
+    float: right;
+}
+
+.section_siguenos button{
+    padding: 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.copyright{
+
+}
+
+
+
+
 
 
   
