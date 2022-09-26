@@ -1,4 +1,56 @@
 
-h1{
-    
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Noto Sans', sans-serif;
 }
+
+header{
+    background-color: #D5D8DC;
+    border-radius: 5px;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+img{
+    border-radius: 5px;
+    float: left;
+    margin-right: 50px;
+}
+
+.about-me{
+    font-size: 20px;
+}
+
+main{
+    background-color: #4F4F4F;
+    border-radius: 5px;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+main h2{
+    color: #D5D8DC;
+}
+
+.college{
+    background-color: #D5D8DC;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.school{
+    background-color: #D5D8DC;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.kledge{
+}
+
