@@ -1,5 +1,111 @@
-footer{
-    background-color: red;
-    margin: 50px;
-    
+body{
+    margin: 0px;
+    background-color: #D5D8DC;
 }
+
+h1{
+    margin: 20px;
+    font-size: 40px;
+}
+
+nav{
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+nav li a{
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 120px;
+    font-size: 20px;
+}
+nav li a:hover{
+    background-color: #404040;
+}
+
+.section-jdm{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/autos/jdm.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.section-jdm h3{
+    font-size: 30px;
+}
+
+.section-jdm p{
+    font-size: 20px;
+}
+
+.section-jdm a{
+    color: #FFFFFF;
+}
+
+.section-cars{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.section-cars article{
+    padding: 10px;
+    background-color: #404040;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-cars article h3{
+    font-size: 25px;
+}
+
+.section-cars article p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.section-cars img{
+    height: 150px;
+    width: 150px;
+}
+
+.section-cars a{
+    color: #FFFFFF;
+}
+
+
+
+footer{
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.logo-utp{
+    height: 150px;
+    width: 150px;
+}
+
+.logo-facu{
+    height: 150px;
+    width: 150px;
+    margin-left: 1555px;
+}
+
