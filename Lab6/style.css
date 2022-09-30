@@ -1,11 +1,19 @@
 body{
     margin: 0px;
     background-color: #D5D8DC;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-h1{
+.encabezado{
     margin: 20px;
+}
+
+.encabezado h1{
     font-size: 40px;
+}
+
+.encabezado p{
+    font-size: 22px;
 }
 
 nav{
@@ -37,7 +45,7 @@ nav li a:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/autos/jdm.jpg);
     background-repeat: no-repeat;
     color: #FFFFFF;
-    height: 300px;
+    height: 350px;
     margin: 20px;
     border-radius: 10px;
     padding: 20px;
@@ -54,6 +62,12 @@ nav li a:hover{
 
 .section-jdm a{
     color: #FFFFFF;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
 .section-cars{
