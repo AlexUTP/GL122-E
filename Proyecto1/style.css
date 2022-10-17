@@ -1,0 +1,56 @@
+body{
+    background-color: lightskyblue;
+    margin: opx;
+}
+
+header {
+    background-color: red;
+    margin: 20px;
+    height: 245px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 15%;
+}
+
+.shopping-cart-button {
+    float: right;
+    margin: 20px;
+    margin-right: 25px;
+}
+
+.user-button {
+    float: right;
+    margin: 20px;
+    margin-right: 5px;
+}
+
+nav {
+    overflow: hidden;
+    float: right;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 63.6px;
+    margin-bottom: 15px;
+    padding: 15px 35px;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+}
+a:hover {
+    background-color: lightblue;
+}
