@@ -55,3 +55,22 @@ nav a {
 .emision article h3 {
     margin-left: 25px;
 }
+
+.popular {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.popular article img {
+    width: 250px;
+    height: 350px;
+    float: right;
+    margin-right: 15px;
+}
+
+.popular article h3 {
+    margin-left: 25px;
+}
