@@ -34,47 +34,50 @@ input {
     border-radius: 5px;
 }
 
-nav a {
+nav a{
     margin-left: 13px;
     color: black;
 }
+
+main h2{
+    margin: 20px;
+}
+
 
 .emision {
     justify-content: space-between;
     display: flex;
     flex-wrap: nowrap;
-    padding: 10px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .emision article img {
     width: 250px;
     height: 350px;
     float: right;
-    margin-right: 15px;
+    margin: 10px;
 }
 
 .emision article h3 {
-    margin-left: 25px;
+    text-align: center;
 }
 
 .popular {
     justify-content: space-between;
     display: flex;
     flex-wrap: nowrap;
-    padding: 10px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .popular article img {
     width: 250px;
     height: 350px;
     float: right;
-    margin-right: 15px;
+    margin: 10px;
 }
 
 .popular article h3 {
-    margin-left: 25px;
+    text-align: center;
 }
 
 footer{
@@ -99,4 +102,16 @@ footer div ul {
 
 footer div ul a {
     text-decoration: none;
+    color: white;
+}
+
+footer div li{
+    margin-bottom: 10px;
+}
+
+
+.siguenos ul li a i{
+    font-size: 30px;
+    float: left;
+    margin-right: 20px;
 }
