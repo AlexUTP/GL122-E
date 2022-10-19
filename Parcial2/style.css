@@ -1,4 +1,6 @@
-
+body {
+    margin: 0px;
+}
 
 header {
     background-color: black;
@@ -76,75 +78,25 @@ nav a {
 }
 
 footer{
-
-}
-
-.section_ayuda{
-    float: left;
-    margin: 20px;
-    text-align: center;
-}
-
-.footer_bar1{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-
-.footer_bar1 li a{
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.section_acerca{
-    float: left;
-    margin: 20px;
-    text-align: center;
-}
-
-.footer_bar2{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.footer_bar2 li a{
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.section_siguenos{
-    float: right;
-}
-
-.section_siguenos button{
-    padding: 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-
-.copyright{
-
-}
-.section_cuenta{
     justify-content: space-between;
     display: flex;
     flex-wrap: nowrap;
+    background-color: black;
+}
+
+footer div h2 {
+    color: white;
+    margin: 30px;
+}
+
+footer div {
+    margin: 70px;
+}
+
+footer div ul {
+    list-style: none;
+}
+
+footer div ul a {
+    text-decoration: none;
 }
