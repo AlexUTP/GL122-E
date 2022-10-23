@@ -1,0 +1,93 @@
+h4{
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 22px;
+}
+
+.cont_main{
+    padding: 50px 40px;
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+.cont_submain{
+    max-width: 1140px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.columnas{
+    zoom: 1;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.columnas>.second {
+    width: 28%;
+}
+
+.third{
+    margin-left: 4%;
+    float: left;
+}
+
+.second{
+    float: left;
+    margin-left: 4%;
+}
+
+.first{
+    margin-left: 0;
+    float: left;
+}
+
+.info{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 479px){
+    .cont_main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px){
+    .cont_main {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .cont_main{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 899px){
+    .columnas>.third{
+        margin-bottom: 30px;
+        float: none;
+    }
+    .columnas>.second{
+        margin-bottom: 30px;
+        float: none;
+        max-width: 100%;
+    }
+    .columnas>.first{
+        margin-bottom: 30px;
+    }
+
+}
