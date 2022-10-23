@@ -1,23 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/3962f6e325.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
+  <header>
+    <div class="div1">
+      <div class="nav-top">
+        <div class="div2">
+          <img class="logo_nav" src="./imagenes/logo-veterinaria.jpg" alt="">
+        </div>
+        <div>
+          <form action="" class="search">
+            <input type="text">
+            <button class="searchButton">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div class="div_iconos">
+          <a href="" class="shopping-cart-button botones">
+            <i class="fa fa-shopping-cart"></i>
+          </a>
+          <a href="" class="user-button botones">
+            <i class="fa-solid fa-user"></i>
+          </a>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="div2">
+      <div class="nav-bottom">
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Servicios</a></li>
+          <li><a href="">Productos</a></li>
+          <li><a href="">Contáctanos</a></li>
+          <li><a href="">Acerca De</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <label class="menu-icon" for="toggle-menu">
+      <a id="menu-icon">
+        <i class="fa fa-bars"></i>
+      </a>
+    </label>
+
+  </header>
   <div class="iniciosesion-container">
     <div class="iniciosesion-info-container">
       <h1 class="titulo">Inicia Sesión</h1>
       <div class="inicioredsocail-container">
         <div class="elemento-redsocial-container">
-          <img src="imagenes\google.png" alt="imagen-google">
+          <i class="fa-brands fa-google"></i>
           <span>Google</span>
         </div>
         <div class="elemento-redsocial-container">
-          <img src="imagenes\instagram.png" alt="imagen-instagram" >
+          <i class="fa-brands fa-instagram"></i>
           <span>Instagram</span>
         </div>
       </div>
@@ -27,9 +78,38 @@
         <input class="input" type="password" placeholder="Contraseña">
         <p>¿Haz olvidado tu Contraseña? <span class="span">¡Presiona para recuperar!</span></p>
         <button class="boton">Inicia Sesión</button>
-        <p>Crea tu cuenta! <span class="span">Registrate</span></p>
+        <a href="registrate.html" target="_blank">No tienes una cuenta <Strong>Registrate</Strong></a>
       </form>
     </div>
   </div>
+
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="./imagenes/logo-veterinaria.jpg" alt="Logo">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, assumenda?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, assumenda?</p>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2022 <b>Grupo-Des4</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
 </body>
 </html>
