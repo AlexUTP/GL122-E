@@ -269,8 +269,6 @@ header img{
     text-align: center;
     } 
 
-  
-
     .nav-top input{
         width: 179px;
     }
@@ -328,6 +326,12 @@ header img{
         width: 179px;
     }
 
+    .nav-top{
+        width: 450px;
+        margin-right: 0;
+        display: inline-flex;
+    }
+
     .nav-bottom ul{
         display: flex;
         flex-wrap: wrap;
@@ -359,6 +363,23 @@ header img{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 1253px){
+
+    .columnas>.third{
+        margin-bottom: 30px;
+        float: none;
+    }
+    .columnas>.second{
+        margin-bottom: 30px;
+        float: none;
+        max-width: 100%;
+    }
+    .columnas>.first{
+        margin-bottom: 30px;
     }
 
 }
