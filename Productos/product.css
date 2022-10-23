@@ -119,6 +119,10 @@ main section article img {
     margin-left: 25px;
 }
 
+main section h3 {
+    margin-left: 2%;
+}
+
 main section article {
     width: 245px;
     height: 230px;
