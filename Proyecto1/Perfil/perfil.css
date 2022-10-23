@@ -1,0 +1,380 @@
+html, body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #0a141d;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 150px;
+    margin: 20px;
+}
+
+.nav-top{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.search{
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+  
+.botones{
+    display: flex;
+}
+
+.nav-top input{
+    border: none;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    box-sizing: border-box;
+    width: 850px;
+  }
+
+  .searchButton {
+    width: 50px;
+    height: 50px;
+    border: grey;
+    background: grey;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.shopping-cart-button{
+    font-size: 40px;
+    margin: 20px;
+    padding-top: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.user-button{
+    font-size: 40px;
+    margin: 20px;
+    padding-top: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bottom{
+    overflow: hidden;
+    padding-bottom: 20px;
+    background-color: #0a1a2a;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+ .nav-bottom ul{
+    padding-inline-start: 0;
+    display: flex;
+}
+
+.nav-bottom ul li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 13%;
+}
+
+.nav-bottom ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.pie-pagina .grupo-1 .box .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .box .red-social a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+#toggle-menu:checked ~ .nav-bottom {
+    display: block;
+}
+
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 388px){
+    .cont_main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .cont_main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 599px){
+    .cont_main {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .cont_main{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .menu-icon {
+        display: block;
+   }
+
+   .div_iconos{
+    margin-left:0;
+   }
+
+   .botones{
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+    } 
+
+    .nav-top input{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .nav-bottom ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 899px){
+    .columnas>.third{
+        margin-bottom: 30px;
+        float: none;
+    }
+    .columnas>.second{
+        margin-bottom: 30px;
+        float: none;
+        max-width: 100%;
+    }
+    .columnas>.first{
+        margin-bottom: 30px;
+    }
+
+}
+
+.menu-icon {
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.div_iconos{
+    display: flex;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 900px) {
+     .menu-icon {
+        display: block;
+   }
+
+   .div_iconos{
+    margin-left:0;
+   }
+
+   .botones{
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+    } 
+
+    .nav-top input{
+        width: 179px;
+    }
+
+    .nav-top{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .div1{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .div2{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .nav-bottom{
+        width: auto;
+    }
+
+    .nav-bottom ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1428px){
+
+    .menu-icon {
+        display: block;
+   }
+
+   .div_iconos{
+    margin-left:0;
+   }
+
+   .botones{
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+    } 
+
+    .nav-top input{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .nav-bottom ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 1253px){
+
+    .columnas>.third{
+        margin-bottom: 30px;
+        float: none;
+    }
+    .columnas>.second{
+        margin-bottom: 30px;
+        float: none;
+        max-width: 100%;
+    }
+    .columnas>.first{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 791px){
+    .searchButton{
+        width: 50%;
+    }
+
+    .logo_nav{
+        width: 25%;
+    }
+
+}
