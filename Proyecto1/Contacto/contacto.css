@@ -139,12 +139,15 @@ header img{
     text-transform: uppercase;
 }
 
+ .nav-bottom ul{
+    padding-inline-start: 0;
+    display: flex;
+}
+
 .nav-bottom ul li{
-    float: left;
     list-style-type: none;
-    padding-left: 130px;
-    padding-right: 130px;
     font-size: 20px;
+    margin-left: 13%;
 }
 
 .nav-bottom ul li a{
@@ -330,6 +333,16 @@ header img{
         width: 450px;
         margin-right: 0;
         display: inline-flex;
+    }
+
+    .div1{
+        width: 450px;
+        margin-right: 0;
+        display: inline-flex;
+    }
+
+    .nav-bottom{
+        width: auto;
     }
 
     .nav-bottom ul{
