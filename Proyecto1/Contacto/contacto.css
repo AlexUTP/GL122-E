@@ -55,11 +55,14 @@ div{
     align-items: center;
 }
 
-body{
+html, body{
     background-color: white;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 header{
@@ -74,6 +77,8 @@ header img{
 
 .nav-top{
     display: flex;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .search{
@@ -81,6 +86,7 @@ header img{
     padding-top: 20px;
     display: flex;
     box-sizing: border-box;
+    width: 100%;
 }
   
 .botones{
@@ -88,14 +94,13 @@ header img{
 }
 
 .nav-top input{
-    width: 1000px;
     border: none;
-    border-right: none;
     padding: 5px;
     height: 50px;
     border-radius: 5px 0 0 5px;
     outline: none;
     box-sizing: border-box;
+    width: 850px;
   }
 
   .searchButton {
@@ -108,11 +113,6 @@ header img{
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 30px;
-    box-sizing: border-box;
-}
-
-.search{
-    font-size: 40px;
     box-sizing: border-box;
 }
 
@@ -137,6 +137,8 @@ header img{
     padding-bottom: 20px;
     background-color: #0a1a2a;
     text-transform: uppercase;
+    box-sizing: border-box;
+    width: 100%;
 }
 
  .nav-bottom ul{
@@ -237,6 +239,12 @@ header img{
 
 }
 
+@media only screen and (max-width: 388px){
+    .cont_main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
 @media only screen and (max-width: 479px){
     .cont_main{
@@ -244,6 +252,8 @@ header img{
         padding-right: 20px;
     }
 }
+
+
 
 @media only screen and (max-width: 599px){
     .cont_main {
@@ -262,6 +272,10 @@ header img{
         display: block;
    }
 
+   .div_iconos{
+    margin-left:0;
+   }
+
    .botones{
     display: none;
     position: absolute;
@@ -273,7 +287,8 @@ header img{
     } 
 
     .nav-top input{
-        width: 179px;
+        box-sizing: border-box;
+        width: 100%;
     }
 
     .nav-bottom ul{
@@ -308,11 +323,16 @@ header img{
 
 .div_iconos{
     display: flex;
+    margin-left: auto;
 }
 
 @media screen and (max-width: 900px) {
      .menu-icon {
         display: block;
+   }
+
+   .div_iconos{
+    margin-left:0;
    }
 
    .botones{
@@ -330,15 +350,18 @@ header img{
     }
 
     .nav-top{
-        width: 450px;
-        margin-right: 0;
-        display: inline-flex;
+        box-sizing: border-box;
+        width: 100%;
     }
 
     .div1{
-        width: 450px;
-        margin-right: 0;
-        display: inline-flex;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .div2{
+        box-sizing: border-box;
+        width: 100%;
     }
 
     .nav-bottom{
@@ -358,6 +381,10 @@ header img{
         display: block;
    }
 
+   .div_iconos{
+    margin-left:0;
+   }
+
    .botones{
     display: none;
     position: absolute;
@@ -369,7 +396,8 @@ header img{
     } 
 
     .nav-top input{
-        width: 179px;
+        box-sizing: border-box;
+        width: 100%;
     }
 
     .nav-bottom ul{
@@ -393,6 +421,17 @@ header img{
     }
     .columnas>.first{
         margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 791px){
+    .searchButton{
+        width: 50%;
+    }
+
+    .logo_nav{
+        width: 25%;
     }
 
 }
