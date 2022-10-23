@@ -1,0 +1,55 @@
+main {
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+}
+
+main section article img {
+    width: 200px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+main section article {
+    width: 245px;
+    height: 400px;
+}
+
+main section article h4 {
+    text-align: center;
+}
+
+main section article p {
+    text-align: justify;
+    margin: 15px;
+}
+
+.products-pork article {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+}
+
+.products-horse article {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+}
+
+.products-chicken article {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+}
+
+.products-cow article {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+}
