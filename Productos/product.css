@@ -6,6 +6,22 @@ h2 {
     text-align: center;
 }
 
+.products-pork{
+    overflow: auto;
+}
+
+.products-horse{
+    overflow: auto;
+}
+
+.products-cow{
+    overflow: auto;
+}
+
+.products-chicken{
+    overflow: auto;
+}
+
 main section article img {
     width: 200px;
     height: 150px;
@@ -26,30 +42,10 @@ main section article p {
     margin: 15px;
 }
 
-.products-pork article {
+.products-pork article, .products-horse article, .products-chicken article, .products-cow article{
     float: left;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: yellow;
-}
-
-.products-horse article {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: yellow;
-}
-
-.products-chicken article {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: yellow;
-}
-
-.products-cow article {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 10px;
     background-color: yellow;
 }
