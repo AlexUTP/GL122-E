@@ -10,39 +10,39 @@
 <body>
     <h1>JavaScript CRUD Example Tutorial</h1>
 	<hr>
-			<div class="employee-form">
+			<div class="animal-form">
                 <form>
                     <div>
-                        <label>Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
-                        <input type="text" name="fullName" id="fullName">
+                        <label>Nombre Completo:</label>
+                        <input type="text" name="name" id="name">
                     </div>
                     <div>
-                        <label>Email Id</label>
+                        <label>Correo Electronico: </label>
                         <input type="text" name="email" id="email">
                     </div>
                     <div>
-                        <label>Salary</label>
-                        <input type="text" name="salary" id="salary">
+                        <label>Animal: </label>
+                        <input type="text" name="animal" id="animal">
                     </div>
                     <div>
-                        <label>City</label>
-                        <input type="text" name="city" id="city">
+                        <label>Descripcion Breve: </label>
+                        <input type="text" name="description" id="description">
                     </div>
                     <div  class="form-action-buttons">
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="ENVIAR">
                     </div>
                 </form>
 		</div>
 		<br/>
-		<div class = "employees-table">
-                <table class="list" id="employeeList">
+		<div class = "animal-table">
+                <table class="list" id="animalList">
                     <thead>
                         <tr>
-                            <th>Full Name</th>
-                            <th>Email Id</th>
-                            <th>Salary</th>
-                            <th>City</th>
-                            <th>Actions</th>
+                            <th>Nombre Completo </th>
+                            <th>Correo Electronico </th>
+                            <th>Animal </th>
+                            <th>Descripcion Breve</th>
+                            <th>Accion</th>
                         </tr>
                     </thead>
                     <tbody>
