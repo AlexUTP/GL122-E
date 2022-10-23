@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>FARM ANIMAL</title>
     <script src="https://kit.fontawesome.com/3962f6e325.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -38,27 +38,23 @@
         </nav>
     </header>
     <main>
-        <h2>Productos más vendidos</h2>
+        <h2>Productos más Vendidos</h2>
         <section>
             <article>
                 <img src="" alt="">
                 <h3></h3>
-                <p></p>
             </article>
             <article>
                 <img src="" alt="">
                 <h3></h3>
-                <p></p>
             </article>
             <article>
                 <img src="" alt="">
                 <h3></h3>
-                <p></p>
             </article>
             <article>
                 <img src="" alt="">
                 <h3></h3>
-                <p></p>
             </article>
         </section>
         <h2>Programa tu cita hoy</h2>
@@ -68,32 +64,41 @@
             </article>
             <article>
                 <form method="get" action="./thanks.html">
-                    <label for="nombre">Nombre Completo</label>
+                    <div class="name-email">
+                        <div>
+                            <label for="name">Nombre Completo:</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div>
+                            <label for="email">Correo Electronico:</label>
+                            <input type="email" name="" id="">
+                        </div>
+                    </div>
                     <br>
-                    <input type="text" name="" id="">
+                    <div class="date-animal">
+                        <div>
+                            <label for="date">Fecha para la cita:</label>
+                            <br>
+                            <input type="date" name="" id="">
+                        </div>
+                        <div>
+                            <label for="animal">Animal:</label>
+                            <br>
+                            <select id="" name="">
+                                <option value="">Vaca</option>
+                                <option value="">Caballo</option>
+                                <option value="">Gallina</option>
+                                <option value="">Cerdo</option>
+                            </select>
+                        </div>
+                    </div>
                     <br>
-                    <label for="telefono">Numero de Telefono</label>
-                    <br>
-                    <input type="tel" name="" id="">
-                    <br>
-                    <label for="">Fecha para la cita</label>
-                    <br>
-                    <input type="date" name="" id="">
-                    <br>
-                    <label for="animal">Animal:</label> 
-                    <br>
-                    <select id="" name="">
-                        <option value="">Vaca</option>
-                        <option value="">Caballo</option>
-                        <option value="">Gallina</option>
-                        <option value="">Cerdo</option>
-                    </select>
-                    <br>
-                    <label for="">Motivo de cita y Observaciones</label>
-                    <br>
-                    <textarea name="message" rows="10" cols="30"></textarea>
-                    <br><br>
-                    <input type="submit" value="Enviar">
+                    <div class="cita">
+                        <label for="">Motivo de cita y Observaciones:</label>
+                        <br>
+                        <textarea name="message" rows="10" cols="30"></textarea>
+                    </div>
+                    <input class="submit" type="submit" value="ENVIAR">
                 </form>
             </article>
         </section>
