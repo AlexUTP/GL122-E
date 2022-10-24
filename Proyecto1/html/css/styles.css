@@ -149,10 +149,10 @@ header img {
   display: flex;
 }
 
-.nav-bottom ul li {
+.nav-bottom ul li{
   list-style-type: none;
   font-size: 20px;
-  margin-left: 13%;
+  margin-left: 10%;
 }
 
 .nav-bottom ul li a {
