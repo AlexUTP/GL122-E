@@ -391,7 +391,7 @@ main h2{
 
 }
 
-@media only screen and (max-width: 1900px){
+@media only screen and (max-width: 1200px){
     .programa-cita{
         display: inline-block;
     }
@@ -427,7 +427,7 @@ main h2{
     }
 }
 
-@media only screen and (max-width: 1498px){
+@media only screen and (max-width: 1900px){
     
     .programa-cita input, .programa-cita select{
         width: 200px;
@@ -441,5 +441,11 @@ main h2{
         height: 400px;
         width: 470px;
         margin-right: 20px;
+    }
+
+    .name-email{
+
+        display: inline-block;
+
     }
 }
