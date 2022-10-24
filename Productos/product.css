@@ -225,24 +225,6 @@ main section article h4 {
     display: block;
 }
 
-@media screen and (min-width: 480px){
-    .search:hover > .buscador {
-        width: 190px;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .search:hover > .buscador {
-        width: 300px;
-    } 
-}
-
-@media screen and (min-width: 1024px){
-    .search:hover > .buscador {
-        width: 500px;
-    }
-}
-
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
         width: 90%;
@@ -250,7 +232,6 @@ main section article h4 {
         grid-gap: 30px;
         padding: 35px 0px;
     }
-
 }
 
 @media only screen and (max-width: 1023px){
@@ -282,7 +263,6 @@ main section article h4 {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
 }
 
 .menu-icon {
@@ -346,7 +326,6 @@ main section article h4 {
 }
 
 @media only screen and (max-width: 1428px){
-
     .menu-icon {
         display: block;
    }
@@ -375,7 +354,6 @@ main section article h4 {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
 }
 
 @media only screen and (max-width: 791px){
