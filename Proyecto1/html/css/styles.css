@@ -1,7 +1,7 @@
 body {
   height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(imagenes/fondo.jpg);
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
 
@@ -179,7 +179,7 @@ header img {
 }
 
 .titulo {
-  color: chocolate;
+  color: #0d2033;
   text-align: center;
   font-style: normal;
   font-family: monospace;
@@ -203,6 +203,7 @@ header img {
   font-weight: 500;
   padding: 1%;
   justify-content: space-around;
+  color: #fff;
 }
 
 .elemento-redsocial-container i {
@@ -210,12 +211,10 @@ header img {
   position: relative;
   top: 0px;
   left: -1%;
-
-
 }
 
 .elemento-redsocial-container:hover {
-  background-color: chocolate;
+  background-color: #0d2033;
   border-color: transparent;
   border-radius: 20px;
 
@@ -257,15 +256,16 @@ header img {
   color: white;
   border: none;
   border-radius: 50px;
-  background-color: chocolate;
+  background-color: #0d2033;
   cursor: pointer;
+  padding: 10px;
 }
 
 .input-container p {
   margin: 2%;
 }
 a { text-decoration: none; 
-  color: chocolate;} 
+  color: #0d2033;} 
 .span {
   color: brown;
   font-weight: 700;

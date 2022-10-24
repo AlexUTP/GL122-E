@@ -1,7 +1,7 @@
 body {
   height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(imagenes/fondo.jpg);
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
 .registroform {
@@ -52,7 +52,7 @@ body {
   left: 15px;
   padding: 0 4px;
   background-color: white;
-  color: #c5712d;
+  color: #0d2033;
   font-size: 16px;
   transition: 0.5s;
   z-index: 0;
@@ -62,7 +62,7 @@ body {
   margin-left: auto;
   padding: 15px 30px;
   border: none;
-  background-color: chocolate;
+  background-color: #0d2033;
   color: white;
   border-radius: 6px;
   cursor: pointer;
@@ -71,7 +71,7 @@ body {
 }
 
 .boton:hover {
-  background-color: chocolate;
+  background-color: #0a1a2a;
   transform: translateY(-2px);
 }
 /*para mover la etiquetas hacia arriba en cada caja del formulario*/
