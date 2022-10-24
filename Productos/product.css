@@ -365,3 +365,35 @@ main section article h4 {
         width: 25%;
     }
 }
+
+@media screen and (min-width: 1334px){
+    main section article img {
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;
+        margin-left: 50px;
+        background-color: white;
+    }
+    
+    main section article {
+        width: 345px;
+        height: 470px;
+    }
+    
+    main section article h4 {
+        text-align: center;
+        color: white;
+        margin: 40px;
+        font-size: 20px;
+    }
+    
+    .precio {
+        justify-content: center;
+        display: flex;
+        padding: 10px;
+        color: white;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: red;
+    }
+}
