@@ -108,11 +108,6 @@ main{
 main h2{
     text-transform: uppercase;
 }
-
-main section{
-    display: flex;
-}
-
 .name-email{
     display: flex;
 }
@@ -165,6 +160,10 @@ main section{
     border-radius: 5px;
     background-color: #0a1a2a;
     color: #fff;
+}
+
+.programa-cita{
+    display: flex;
 }
 
 .programa-cita img{
@@ -392,3 +391,38 @@ main section{
 
 }
 
+@media only screen and (max-width: 1900px){
+    .programa-cita{
+        display: inline-block;
+    }
+
+    .name-email{
+        display: inline-block;
+    }
+
+    .date-animal{
+        display: inline-block;
+    }
+
+    .cita textarea{
+        width: 730px;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    
+    .programa-cita input, .programa-cita select{
+        width: 100px;
+    }
+
+    .cita textarea {
+        width: 300px;
+    }
+
+    .programa-cita img {
+        height: 300px;
+        width: 370px;
+        margin-right: 20px;
+    }
+}
