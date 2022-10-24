@@ -108,50 +108,47 @@ h2 {
     text-align: center;
 }
 
+main h3 {
+    margin-left: 2%;
+    font-size: 30px;
+}
+
 .products-pork, .products-horse, .products-cow, .products-chicken {
-    overflow: auto;
+    display: flex;
+}
+
+.products-pork article, .products-horse article, .products-chicken article, .products-cow article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0d2033;
 }
 
 main section article img {
     width: 200px;
     height: 150px;
-    margin-top: 15px;
-    margin-left: 25px;
+    margin: 20px;
     background-color: white;
-}
-
-main section h3 {
-    margin-left: 2%;
 }
 
 main section article {
     width: 245px;
-    height: 270px;
+    height: 290px;
 }
 
 main section article h4 {
-    text-align: center;
+    margin: 0px auto;
     color: white;
-    margin: 20px;
-    font-size: 15px;
 }
 
+
 .precio {
-    justify-content: center;
-    display: flex;
     padding: 5px;
     color: white;
     margin-left: 25%;
     margin-right: 25%;
     background-color: red;
-}
-
-.products-pork article, .products-horse article, .products-chicken article, .products-cow article{
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    background-color: #0a141d;
 }
 
 .pie-pagina{
