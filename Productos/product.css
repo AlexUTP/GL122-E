@@ -100,52 +100,6 @@ header img{
     text-decoration: none;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    background-image: url(fondo.jpg);
-    height: 100vh;
-    background-size: cover;
-}
-
-.search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #069;
-    padding: 10px;
-    height: 80px;
-    border-radius: 25px;
-    width: 25%;
-    margin-left: 40%;
-    margin-right: 25%;
-}
-
-.buscador{
-    border: none;
-    background: none;
-    outline: none;
-    color: white;
-    font-size: 20px;
-    float: left;
-    line-height: 60px;
-    transition: 1s;
-    width: 0px;
-}
-
-div button {
-    background-color: #069;
-    border: none;
-}
-
-div button i {
-    color: white;
-}
-
 main {
     justify-content: space-between;
 }
@@ -178,6 +132,7 @@ main section article {
 main section article h4 {
     text-align: center;
     color: white;
+    margin: 20px;
     font-size: 15px;
 }
 
