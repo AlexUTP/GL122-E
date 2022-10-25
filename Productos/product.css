@@ -115,14 +115,16 @@ main h3 {
 
 .products-pork, .products-horse, .products-cow, .products-chicken {
     display: flex;
+    justify-content: center;
 }
 
 .products-pork article, .products-horse article, .products-chicken article, .products-cow article{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color: #0d2033;
+    width: 245px;
+    height: 290px;
+    flex-direction: column;
 }
 
 main section article img {
@@ -132,22 +134,18 @@ main section article img {
     background-color: white;
 }
 
-main section article {
-    width: 245px;
-    height: 290px;
-}
-
 main section article h4 {
-    margin: 0px auto;
+    text-align: center;
     color: white;
 }
 
 
 .precio {
-    padding: 5px;
+    margin-left: 36%;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
-    margin-left: 25%;
-    margin-right: 25%;
     background-color: red;
 }
 
