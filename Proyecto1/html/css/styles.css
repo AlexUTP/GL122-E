@@ -19,6 +19,11 @@ div {
   display: block;
 }
 
+.boton a{
+  color: #fff;
+  text-decoration: none;
+}
+
 .cont_submain {
   max-width: 1140px;
   position: relative;
