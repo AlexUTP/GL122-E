@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+
 html, body{
     background-color: white;
     margin: 0px;
@@ -109,6 +111,8 @@ main {
 h2 {
     text-align: center;
 }
+
+
 
 .products-pork, .products-horse, .products-cow, .products-chicken {
     overflow: auto;

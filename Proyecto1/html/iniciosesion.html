@@ -8,15 +8,13 @@
   <title>Login</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/3962f6e325.js" crossorigin="anonymous"></script>
-
 </head>
-
 <body>
   <header>
     <div class="div1">
         <div class="nav-top">
             <div class="div2">
-                <a href="index.html"><img class="logo_nav" src="image\logo\logo-veterinaria.jpg" alt=""></a>
+                <a href="index.html"><img class="logo_nav" src="./img/logo-veterinaria.jpg" alt=""></a>
             </div>
             <div>
                 <form action="" class="search">
@@ -48,43 +46,44 @@
             </ul>
         </div>
     </div>  
-
-    <label class="menu-icon" for="toggle-menu">
-        <a id="menu-icon">
-            <i class="fa fa-bars"></i>
-        </a>
-    </label>
-</header>
-  <div class="iniciosesion-container">
-    <div class="iniciosesion-info-container">
-      <h1 class="titulo">Inicia Sesión</h1>
-      <div class="inicioredsocail-container">
-        <div class="elemento-redsocial-container">
-          <i class="fa-brands fa-google"></i>
-          <span>Google</span>
+    <main>
+        <label class="menu-icon" for="toggle-menu">
+            <a id="menu-icon">
+                <i class="fa fa-bars"></i>
+            </a>
+        </label>
+    </header>
+    <div class="iniciosesion-container">
+        <div class="iniciosesion-info-container">
+        <h1 class="titulo">Inicia Sesión</h1>
+        <div class="inicioredsocail-container">
+            <div class="elemento-redsocial-container">
+            <i class="fa-brands fa-google"></i>
+            <span>Google</span>
+            </div>
+            <div class="elemento-redsocial-container">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+            </div>
         </div>
-        <div class="elemento-redsocial-container">
-          <i class="fa-brands fa-instagram"></i>
-          <span>Instagram</span>
+        <p>ó ingresa con</p>
+        <form class="input-container">
+            <input class="input" type="text" placeholder="Usuario">
+            <input class="input" type="password" placeholder="Contraseña">
+            <p>¿Haz olvidado tu Contraseña? <span class="span">¡Presiona para recuperar!</span></p>
+            <button class="boton" onclick="index.html">Inicia Sesión</button>
+            <a href="registrate.html" target="_blank">No tienes una cuenta <Strong>Registrate</Strong></a>
+        </form>
         </div>
-      </div>
-      <p>ó ingresa con</p>
-      <form class="input-container">
-        <input class="input" type="text" placeholder="Usuario">
-        <input class="input" type="password" placeholder="Contraseña">
-        <p>¿Haz olvidado tu Contraseña? <span class="span">¡Presiona para recuperar!</span></p>
-        <button class="boton" onclick="index.html">Inicia Sesión</button>
-        <a href="registrate.html" target="_blank">No tienes una cuenta <Strong>Registrate</Strong></a>
-      </form>
     </div>
-  </div>
+    </main>
 
   <footer class="pie-pagina">
     <div class="grupo-1">
         <div class="box">
             <figure>
                 <a href="#">
-                    <img src="./image/logo/logo-veterinaria.jpg" alt="Logo">
+                    <img src="./img/logo-veterinaria.jpg" alt="Logo">
                 </a>
             </figure>
         </div>
@@ -102,10 +101,10 @@
                 <a href="#" class="fa fa-youtube"></a>
             </div>
         </div>
-  </div>
-  <div class="grupo-2">
-        <small>&copy; 2022 <b>Grupo-Des4</b> - Todos los Derechos Reservados.</small>
-  </div>
-</footer> 
+    </div>
+    <div class="grupo-2">
+            <small>&copy; 2022 <b>Grupo-Des4</b> - Todos los Derechos Reservados.</small>
+    </div>
+    </footer> 
 </body>
 </html>
