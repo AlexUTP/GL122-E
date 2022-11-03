@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleadm.css">
+    <title>FARM ANIMAL</title>
+</head>
+<body>
+    <header>
+        <h1>FARM ANIMAL ADM</h1>
+    </header>
+    <br>
+			<div class="animal-form">
+                <form>
+                    <div>
+                        <label>Nombre Completo:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label>Correo Electronico: </label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>Animal: </label>
+                        <input type="text" name="animal" id="animal">
+                    </div>
+                    <div>
+                        <label>Descripcion Breve: </label>
+                        <input type="text" name="description" id="description">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+		</div>
+		<br/>
+		<div class = "animal-table">
+                <table class="list" id="animalList">
+                    <thead>
+                        <tr>
+                            <th>Nombre Completo </th>
+                            <th>Correo Electronico </th>
+                            <th>Animal </th>
+                            <th>Descripcion Breve</th>
+                            <th>Accion</th>
+                        </tr>
+                        <div class="crud">
+                            <tr>
+                                <th>Alexander Caballero</th>
+                                <th>alexander.caballero4@utp.ac.pa</th>
+                                <th>Vaca</th>
+                                <th>Problemas para dar leche, desde hace 1 mes.</th>
+                                <th class="action"><a href="">cambiar</a> <a href="">eliminar</a></th>
+                            </tr>
+                            <tr>
+                                <th>Camilo Yepes</th>
+                                <th>camilo.yepes@utp.ac.pa</th>
+                                <th>Caballo</th>
+                                <th>Problemas en el caminar. Cogea mucho.</th>
+                                <th class="action"><a href="">cambiar</a> <a href="">eliminar</a> </th>
+                            </tr>
+                            <tr>
+                                <th>Bryan Avila</th>
+                                <th>bryan.avila@utp.ac.pa</th>
+                                <th>Pollo</th>
+                                <th>Tiene resfriado.</th>
+                                <th class="action"><a href="">cambiar</a> <a href="">eliminar</a> </th>
+                            </tr>
+                        </div>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+        </div>
+        <br>
+        <footer class="pie-pagina">
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Grupo-Des4</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+</body>
+</html>
