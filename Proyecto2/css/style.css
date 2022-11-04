@@ -25,114 +25,28 @@ header img{
 }
 
 main{
-    margin: 20px;
     justify-content: space-between;
+    margin: 0.5%;
 }
 
 main h2{
     text-transform: uppercase;
 }
 
-.best-seller img{
-    width: 200px;
-    height: 150px;
-    margin-top: 15px;
-    margin-left: 25px;
-    background-color: white;
-}
-
-.best-seller{
-    overflow: auto;
-}
-
-.best-seller h4{
-    text-align: center;
-    color: white;
-    margin: 20px;
-    font-size: 15px;
-}
-
-.precio{
-    justify-content: center;
-    display: flex;
-    padding: 5px;
-    color: white;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: red;
-}
-
-.best-seller article{
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    background-color: #0a141d;
-    width: 245px;
-    height: 270px;
-}
-
-.name-email{
-    display: flex;
-}
-
-.name-email div{
-    margin-right: 50px;
-}
-
-.name-email input{
-    width: 600px;
-    height: 20px;
-    border-radius: 5px;
-    border-style: solid;
-}
-
-.date-animal{
-    display: flex;
-}
-
-.date-animal div{
-    margin-right: 50px;
-}
-
-.date-animal input{
-    width: 600px;
-    height: 20px;
-    border-radius: 5px;
-    border-style: solid;
-}
-
-.date-animal select{
-    width: 615px;
-    height: 25px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.cita textarea{
-    width: 1265px;
-    border-radius: 5px;
-    border-style: solid;
-    resize: none;
-    border-width: 2px;
-}
-
-.submit{
-    margin: 10px 600px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    background-color: #0a1a2a;
+.best-seller .row .col{
+    background-color: #0d2033;
     color: #fff;
+    margin: 1%;
+    padding: 1%;
 }
 
-.programa-cita{
-    display: flex;
+.best-seller .row .col img{
+    width: 200px;
+    height: 200px;
 }
 
 .programa-cita img{
-    height: 350px;
-    margin-right: 20px;
+    margin: 3%;
 }
 
 .pie-pagina{
