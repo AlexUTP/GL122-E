@@ -102,62 +102,61 @@ header img{
     text-decoration: none;
 }
 
-main {
+main{
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: auto;
+    margin: 0.5%;
 }
 
 h2 {
     text-align: center;
 }
 
-
-
-.products-pork, .products-horse, .products-cow, .products-chicken {
-    overflow: auto;
+.products-pork .row .col{
+    background-color: #0d2033;
+    color: #fff;
+    margin: 1%;
+    padding: 1%;
 }
 
-main section article img {
+.products-pork .row .col img{
     width: 200px;
-    height: 150px;
-    margin-top: 15px;
-    margin-left: 25px;
-    background-color: white;
+    height: 200px;
 }
 
-main section h3 {
-    margin-left: 2%;
+.products-horse .row .col{
+    background-color: #0d2033;
+    color: #fff;
+    margin: 1%;
+    padding: 1%;
 }
 
-main section article {
-    width: 245px;
-    height: 270px;
+.products-horse .row .col img{
+    width: 200px;
+    height: 200px;
 }
 
-main section article h4 {
-    text-align: center;
-    color: white;
-    margin: 20px;
-    font-size: 15px;
+.products-chicken .row .col{
+    background-color: #0d2033;
+    color: #fff;
+    margin: 1%;
+    padding: 1%;
 }
 
-.precio {
-    justify-content: center;
-    display: flex;
-    padding: 5px;
-    color: white;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: red;
+.products-chicken .row .col img{
+    width: 200px;
+    height: 200px;
 }
 
-.products-pork article, .products-horse article, .products-chicken article, .products-cow article{
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    background-color: #0a141d;
+.products-cow .row .col{
+    background-color: #0d2033;
+    color: #fff;
+    margin: 1%;
+    padding: 1%;
+}
+
+.products-cow .row .col img{
+    width: 200px;
+    height: 200px;
 }
 
 .pie-pagina{
