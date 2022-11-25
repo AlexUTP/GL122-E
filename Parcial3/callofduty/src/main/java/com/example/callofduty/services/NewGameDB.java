@@ -13,6 +13,7 @@ public class NewGameDB {
         _cn = new connection().openDb();
     }
     public List<NewGame> ObtenerNewGame(){
+        try {
             Statement stnt = _cn.createStatement();
             String query = "SELECT * FROM NewGame";
             List<NewGame> newgame = new ArrayList<>();
