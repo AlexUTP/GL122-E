@@ -12,4 +12,23 @@ public class NewGameDB {
     public NewGameDB(){
         _cn = new connection().openDb();
     }
+    public List<NewGame> ObtenerNewGame(){
+            Statement stnt = _cn.createStatement();
+            String query = "SELECT * FROM NewGame";
+            List<NewGame> newgame = new ArrayList<>();
+            ResultSet result = stnt.executeQuery(query);
+            
+            while(result.next()){
+                NewGame new_game = new NewGame(
+                    result.getString("url"),
+                    result.getString("name"),
+                    result.getString("description")
+                );
+                new_game.add(newgame);
+            }
+                } catch (Exception e) {
+            System.out.println("Ocurrio una excepcion.");
+        }
+        return null;
+    }
 }
