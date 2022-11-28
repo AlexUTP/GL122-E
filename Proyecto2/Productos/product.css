@@ -104,11 +104,29 @@ header img{
 
 main{
     justify-content: space-between;
-    margin: 0.5%;
 }
 
 h2 {
     text-align: center;
+    padding: 1%;
+}
+
+.products-pork{
+    background-color: #E5E8E8;
+    padding: 1%;
+}
+
+.products-chicken{
+    background-color: #E5E8E8;
+    padding: 1%;
+}
+
+.products-horse{
+    padding: 1%;
+}
+
+.products-cow{
+    padding: 1%;
 }
 
 .products-pork .row .col{
@@ -116,6 +134,7 @@ h2 {
     color: #fff;
     margin: 1%;
     padding: 1%;
+    text-align: center;
 }
 
 .products-pork .row .col img{
@@ -128,6 +147,7 @@ h2 {
     color: #fff;
     margin: 1%;
     padding: 1%;
+    text-align: center;
 }
 
 .products-horse .row .col img{
@@ -140,6 +160,7 @@ h2 {
     color: #fff;
     margin: 1%;
     padding: 1%;
+    text-align: center;
 }
 
 .products-chicken .row .col img{
@@ -151,7 +172,8 @@ h2 {
     background-color: #0d2033;
     color: #fff;
     margin: 1%;
-    padding: 1%;
+    padding: 0.5%;
+    text-align: center;
 }
 
 .products-cow .row .col img{
