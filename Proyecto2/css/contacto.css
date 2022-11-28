@@ -68,95 +68,49 @@ html, body{
 }
 
 header{
-    background-color: #0a141d;
+    background-color: #2B601E;
     box-sizing: border-box;
 }
 
 header img{
     width: 150px;
-    margin: 20px;
 }
 
-.nav-top{
-    display: flex;
-    box-sizing: border-box;
-    width: 100%;
+.nav-top .row .col{
+    padding-top: 4%;
 }
 
-.search{
-    position: relative;
-    padding-top: 20px;
-    display: flex;
-    box-sizing: border-box;
-    width: 100%;
-}
-  
-.botones{
-    display: flex;
+.nav-top .navbar-brand{
+    padding: 2% 1% 2%;
 }
 
-.nav-top input{
-    border: none;
-    padding: 5px;
-    height: 50px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    box-sizing: border-box;
-    width: 850px;
-  }
-
-  .searchButton {
-    width: 50px;
-    height: 50px;
-    border: grey;
-    background: grey;
+.nav-top .boton{
+    color: #efefef;
     text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 30px;
-    box-sizing: border-box;
-}
-
-.shopping-cart-button{
+    padding-top: 10%;
     font-size: 40px;
-    margin: 20px;
-    padding-top: 22px;
-    color: white;
-    text-decoration: none;
-}
-
-.user-button{
-    font-size: 40px;
-    margin: 20px;
-    padding-top: 22px;
-    color: white;
-    text-decoration: none;
 }
 
 .nav-bottom{
-    overflow: hidden;
-    padding-bottom: 20px;
-    background-color: #0a1a2a;
-    text-transform: uppercase;
-    box-sizing: border-box;
-    width: 100%;
+    background-color: #46A908;
 }
 
- .nav-bottom ul{
-    padding-inline-start: 0;
-    display: flex;
+.nav-bottom .row{
+    padding: 1% 0% 1%;
 }
 
-.nav-bottom ul li{
-    list-style-type: none;
-    font-size: 20px;
-    margin-left: 10%;
+.nav-bottom .row :hover{
+    background-color: #efefef;
+    border-radius: 3%;
+}
+.nav-bottom .row .col{
+    padding: 0.5%;
 }
 
-.nav-bottom ul li a{
-    color: #fff;
+.nav-bottom .row .col a{
+    color: #0a1a2a;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .pie-pagina{
