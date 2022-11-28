@@ -73,8 +73,14 @@ main h2{
     height: 200px;
 }
 
+.programa-cita{
+    padding: 1%;
+    display: flex;
+}
+
 .programa-cita img{
-    margin: 3%;
+    margin: 1%;
+    height: 10%;
 }
 
 .pie-pagina{
