@@ -15,12 +15,19 @@ header img{
     width: 150px;
 }
 
+.nav-top .row .col{
+    padding-top: 4%;
+}
+
 .nav-top .navbar-brand{
-    padding: 2% 0% 2%;
+    padding: 2% 1% 2%;
 }
 
 .nav-top .boton{
-    
+    color: #efefef;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 40px;
 }
 
 .nav-bottom{
@@ -42,19 +49,20 @@ header img{
 .nav-bottom .row .col a{
     color: #0a1a2a;
     text-decoration: none;
-}
-
-main{
-    justify-content: space-between;
-    margin: 0.5%;
+    font-size: 20px;
 }
 
 main h2{
     text-transform: uppercase;
+    padding: 1%;
+}
+
+.best-seller{
+    padding: 1%
 }
 
 .best-seller .row .col{
-    background-color: #0d2033;
+    background-color: #A88D66;
     color: #fff;
     margin: 1%;
     padding: 1%;
