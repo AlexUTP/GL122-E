@@ -1,0 +1,387 @@
+h4{
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 22px;
+}
+
+.cont_main{
+    padding: 50px 40px;
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+.cont_submain{
+    max-width: 1140px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.columnas{
+    zoom: 1;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.columnas>.second {
+    width: 28%;
+}
+
+.third{
+    margin-left: 4%;
+    float: left;
+}
+
+.second{
+    float: left;
+    margin-left: 4%;
+}
+
+.first{
+    margin-left: 0;
+    float: left;
+}
+
+.info{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+html, body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #2B601E;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 150px;
+}
+
+.nav-top .row .col{
+    padding-top: 4%;
+}
+
+.nav-top .navbar-brand{
+    padding: 2% 1% 2%;
+}
+
+.nav-top .boton{
+    color: #efefef;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 40px;
+}
+
+.nav-bottom{
+    background-color: #46A908;
+}
+
+.nav-bottom .row{
+    padding: 1% 0% 1%;
+}
+
+.nav-bottom .row :hover{
+    background-color: #efefef;
+    border-radius: 3%;
+}
+.nav-bottom .row .col{
+    padding: 0.5%;
+}
+
+.nav-bottom .row .col a{
+    color: #0a1a2a;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #2B601E;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.pie-pagina .grupo-1 .box .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #A88D66;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #46A908;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+#toggle-menu:checked ~ .nav-bottom {
+    display: block;
+}
+
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 388px){
+    .cont_main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .cont_main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 599px){
+    .cont_main {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .cont_main{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .menu-icon {
+        display: block;
+   }
+
+   .div_iconos{
+    margin-left:0;
+   }
+
+   .botones{
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+    } 
+
+    .nav-top input{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .nav-bottom ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 899px){
+    .columnas>.third{
+        margin-bottom: 30px;
+        float: none;
+    }
+    .columnas>.second{
+        margin-bottom: 30px;
+        float: none;
+        max-width: 100%;
+    }
+    .columnas>.first{
+        margin-bottom: 30px;
+    }
+
+}
+
+.menu-icon {
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.div_iconos{
+    display: flex;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 900px) {
+     .menu-icon {
+        display: block;
+   }
+
+   .div_iconos{
+    margin-left:0;
+   }
+
+   .botones{
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+    } 
+
+    .nav-top input{
+        width: 179px;
+    }
+
+    .nav-top{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .div1{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .div2{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .nav-bottom{
+        width: auto;
+    }
+
+    .nav-bottom ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1428px){
+
+    .menu-icon {
+        display: block;
+   }
+
+   .div_iconos{
+    margin-left:0;
+   }
+
+   .botones{
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+    } 
+
+    .nav-top input{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .nav-bottom ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 1253px){
+
+    .columnas>.third{
+        margin-bottom: 30px;
+        float: none;
+    }
+    .columnas>.second{
+        margin-bottom: 30px;
+        float: none;
+        max-width: 100%;
+    }
+    .columnas>.first{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 791px){
+    .searchButton{
+        width: 50%;
+    }
+
+    .logo_nav{
+        width: 25%;
+    }
+
+}
